@@ -4,7 +4,7 @@ function passWord() {
     var pass1 = prompt('Please Enter Your Password',' ');
     while (testV < 3) {
         if (!pass1) history.go(-1);
-        if (pass1.toLowerCase() == "parksagent") {
+        if (pass1.toLowerCase() == "parks21") {
             alert('You Got it Right!');
             location.replace('https://sites.google.com/view/parks-yourfirstyear/home');
             break;
